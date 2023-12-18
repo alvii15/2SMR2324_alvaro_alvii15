@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contacto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Ford</title>
+</head>
+<body>
+
+    <header>
+        <h1>Ford - Contacto</h1>
+    </header>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros para obtener más información sobre nuestros vehículos.</p>
+        <address>
+            Dirección: 123 Calle Principal, Ciudad
+        </address>
+        <p>Teléfono: 123-456-7890</p>
+        <p>Email: info@ford.com</p>
+
+        <h3>Encuesta de Contacto</h3>
+        <form action="procesar_encuesta.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p><a href="ford.html">Volver a la página principal</a></p>
+    </footer>
+
+</body>
+</html>
